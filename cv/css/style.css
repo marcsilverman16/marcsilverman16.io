@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    background-image: radial-gradient(#FFFF00 1%, #00008B
+    98%);
+    display: block
+}
+
+.one {
+    padding: 0 0 50px 0;
+    font-family: 'Cormorant';
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.two {
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.three {
+    font-family: 'Montserrat'; 
+    color: white;
+    text-align: center;
+    background-color: blue;
+    padding-top: 25px;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+hr {
+    border: 1px dashed purple;
+    margin-left:25%;
+    margin-right:25%;
+
+}
+
+.pic1 {
+    position:absolute;
+    top:120px;
+    left:20px;
+    right:30px;
+    bottom:20px; 
+    border-radius: 70px;
+
+}
+
+.pic2 {
+    position:absolute;
+    top:120px;
+    right:30px;
+    bottom:20px;
+    display: block;
+    width: 250px;
+    height: 150px; /* width * 0.866 */
+    background: red;
+    box-sizing: border-box;
+    -webkit-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+    -moz-clip-path: polygon(0% 50%, 25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%);
+}
+
+.row {
+    width: 50%;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    display: inline-block;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.codePic {
+    width: 150px;
+    height: 150px;
+    border-radius: 70px;
+
+}
+
+a:hover { 
+    COLOR: purple; 
+}
+
+.container {
+    columns: 2;
+}
+
+.contactPage {
+    margin: 10px;
+}
